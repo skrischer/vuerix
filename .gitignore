@@ -27,6 +27,7 @@ coverage
 .idea
 *.pem
 .idea
+*.iml
 
 # debug
 npm-debug.log*
@@ -50,3 +51,5 @@ lib/
 .vscode
 *.code-workspace
 *.tsbuildinfo
+
+compare.json

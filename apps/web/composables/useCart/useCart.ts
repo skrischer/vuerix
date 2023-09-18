@@ -23,7 +23,7 @@ export const useCart: UseCartReturn = () => {
   const fetchCard: FetchCard = async () => {
     state.value.loading = true;
     try {
-      const { data, error } = await useAsyncData<SfCart>(() => useSdk().commerce.getCart());
+      const { data, error } = await useAsyncData<SfCart>(() => useSdk().emporix.getCart());
       useHandleError(error.value);
       state.value.data = data.value;
       return data;

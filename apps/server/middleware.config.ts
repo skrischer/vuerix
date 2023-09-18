@@ -3,7 +3,12 @@ dotenv.config();
 
 const config = {
   integrations: {
-    /* VSF integration config */
+    emporix: {
+      location: '@medienwerft/emporix-api/server',
+      configuration: {
+        apiUrl: 'http://localhost:8181/emporix',
+      },
+    },
   },
 };
 

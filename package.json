@@ -58,5 +58,10 @@
       "path": "cz-conventional-changelog",
       "disableScopeLowerCase": true
     }
+  },
+  "resolutions": {
+    "@medienwerft/emporix-integration": "portal:/home/developer/IdeaProjects/emporix-integration",
+    "@medienwerft/emporix-sdk": "portal:/home/developer/IdeaProjects/emporix-integration/packages/sdk",
+    "@medienwerft/emporix-api": "portal:/home/developer/IdeaProjects/emporix-integration/packages/api-client"
   }
 }
